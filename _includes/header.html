@@ -1,0 +1,106 @@
+<header class="site-header">
+    <!-- offset row -->
+    <div class="row">
+        <div class="col-xs-12">
+            <br><br> <!-- hack to do top offset -->
+        </div>
+    </div>
+    <!-- logo row -->
+    <div class="row">
+        <div class="col-xs-8 col-xs-offset-2 
+                    col-sm-6 col-sm-offset-3
+                    col-md-4 col-md-offset-4
+                    col-lg-2 col-lg-offset-5">
+            <img src="{{ "/img/logo/logo_with-caption-above.png" | prepend: site.baseurl }}" class="img-responsive" alt="Praxis Lebenswerkstatt Logo">
+        </div>
+    </div>
+    <!-- navigation row -->
+    <div class="row" role="navigation">
+        <nav class="navbar navbar-light bg-faded" style="background-color: rgba(224,224,230,0.8);">
+            <!-- collapsing menu -->
+            <div class="hidden-sm-up">
+                <div class="pull-left">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsing-main-menu">
+                        &#9776; <!-- Menu symbol -->
+                    </button>
+                </div>
+            </div>
+            <!-- menu content -->
+            <div class="collapse navbar-toggleable-xs" id="collapsing-main-menu">
+                <!--<a class="navbar-brand" href="#">Praxis Lebenswerkstatt</a>-->
+                <!-- split url, to check for 'active' element -->
+                {% assign currents = page.url | downcase | split: '/' %}
+                {% assign length = currents | size %}
+                <ul class="nav nav-pills">
+                    <li class="nav-item">
+                        {% if length <= 2 %}
+                            <a class="nav-link active" href="/">Willkommen</a>
+                        {% else %}
+                            <a class="nav-link" href="/">Willkommen</a>
+                        {% endif %} 
+                    </li>
+                    <li class="nav-item dropdown">
+                        {% if page.url contains "was_ist_psychotherapie" or page.url contains "integrative_therapie" or page.url contains "kosten" %}
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><em>Psychotherapie</em></a>
+                        {% else %}
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Psychotherapie</a>
+                        {% endif %}
+                        <div class="dropdown-menu">
+                            {% if page.url contains "was_ist_psychotherapie" %}
+                            <a class="dropdown-item active" href="/pages/was_ist_psychotherapie">Was ist Psychotherapie?</a>
+                            {% else %}
+                            <a class="dropdown-item" href="/pages/was_ist_psychotherapie">Was ist Psychotherapie?</a>
+                            {% endif %}
+                            {% if page.url contains "integrative_therapie" %}
+                            <a class="dropdown-item active" href="/pages/integrative_therapie">Integrative Therapie</a>
+                            {% else %}
+                            <a class="dropdown-item" href="/pages/integrative_therapie">Integrative Therapie</a>
+                            {% endif %}
+                            <div class="dropdown-divider"></div>
+                            {% if page.url contains "kosten" %}
+                            <a class="dropdown-item active" href="/pages/kosten">Kosten</a>
+                            {% else %}
+                            <a class="dropdown-item" href="/pages/kosten">Kosten</a>
+                            {% endif %}
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        {% if page.url contains "supervision_coaching" %}
+                        <a class="nav-link active" href="/pages/supervision_coaching">Supervision/Coaching</a>
+                        {% else %}
+                        <a class="nav-link" href="/pages/supervision_coaching">Supervision/Coaching</a>
+                        {% endif %}
+                    </li>
+                    <li class="nav-item">
+                        {% if page.url contains "beratung" %}
+                        <a class="nav-link active" href="/pages/beratung">Beratung</a>
+                        {% else %}
+                        <a class="nav-link" href="/pages/beratung">Beratung</a>
+                        {% endif %}
+                    </li>
+                    <li class="nav-item">
+                        {% if page.url contains "seminare_gruppen" %}
+                        <a class="nav-link active" href="/pages/seminare_gruppen">Seminare/Gruppen</a>
+                        {% else %}
+                        <a class="nav-link" href="/pages/seminare_gruppen">Seminare/Gruppen</a>
+                        {% endif %}
+                    </li>
+                    <li class="nav-item">
+                        {% if page.url contains "ueber_uns" %}
+                        <a class="nav-link active" href="/pages/ueber_uns">Über uns</a>
+                        {% else %}
+                        <a class="nav-link" href="/pages/ueber_uns">Über uns</a>
+                        {% endif %}
+                    </li>
+                    <li class="nav-item">
+                        {% if page.url contains "kontakt" %}
+                        <a class="nav-link active" href="/pages/kontakt">Kontakt</a>
+                        {% else %}
+                        <a class="nav-link" href="/pages/kontakt">Kontakt</a>
+                        {% endif %}
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</header>

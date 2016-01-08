@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+{% include head.html %}
+
+<body class="bgimage">
+    <!-- make container fill full canvas -->
+    <div class="container" >
+
+    {% include header.html %}
+    
+    <!-- content row -->
+    <div class="row">
+        {{ content }}
+    </div>
+
+    
+
+    <!-- end container -->    
+    </div>
+    <div class="site-footer" class="container-fluid">
+        <div class="container" >
+            {% include footer.html %}
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.js"></script>
+    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
+    
+    </body>
+</html>

@@ -1,0 +1,55 @@
+.bgimage {
+  /*padding-top: 5rem;*/
+  background: url(../img/backgrounds/header_alpha_fullhd-min.png) no-repeat;
+  background-size: 100%;
+}
+
+.stacked-logo {
+  position:absolute;
+  z-index:100;
+  top: 0em;
+}
+
+.header-image {
+  margin-top: 1em;
+}
+
+.site-footer {
+  background: rgba(200,211,211,120)
+}
+
+.footer-maps {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+/*
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    width: 100px;
+    height: 400px;
+    background-color: Silver;
+    -webkit-align-self: flex-end;
+    align-self: flex-end;
+    align-items: flex-end;
+}
+
+.flex-item {
+    background-color: DeepSkyBlue;
+    width: 100px;
+    height: 400px;
+    margin: auto;
+    -webkit-align-self: flex-end;
+    align-self: flex-end;
+}
+
+.item2 {
+    -webkit-align-self: flex-end;
+    align-self: flex-end;
+}*/
+
+/*.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center;
+}*/
