@@ -23,6 +23,17 @@
   margin-bottom: 0.5em;
 }
 
+.page-title {
+  vertical-align:baseline;
+  text-align:left;
+}
+
+/*
+.page-title {
+  vertical-align:bottom;text-align:left;
+}
+*/
+
 /*
 .flex-container {
     display: -webkit-flex;
