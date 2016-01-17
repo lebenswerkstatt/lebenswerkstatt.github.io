@@ -1,3 +1,12 @@
+{% assign selection = include.select %}
+{% case selection %}
+{% when '0' %} {% assign checked_0 ="checked" %}
+{% when '1' %} {% assign checked_1 ="checked" %}
+{% when '2' %} {% assign checked_2 ="checked" %}
+{% when '3' %} {% assign checked_3 ="checked" %}
+{% else %}     {% assign checked_4 ="checked" %}
+{% endcase %}
+
 <form>
   <div class="form-group row">
     <label for="inputEmail3" class="col-sm-2 form-control-label">Email</label>
@@ -15,33 +24,34 @@
   <!-- here have calendar show up, if person chooses therapy session, mark available dates -->
   <div class="form-group row">
     <label class="col-sm-2">Art der Anfrage:</label>
-    <div class="col-sm-10">
-      <div class="radio">
-        <label>
-          <input type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
-          Allgemeine Anfrage
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="gridRadios" id="gridRadios2" value="option2">
-          Erstkontakt
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="gridRadios" id="gridRadios3" value="option3">
-          Erstgespräch
-        </label>
-      </div>
-	  <div class="radio">
-        <label>
-          <input type="radio" name="gridRadios" id="gridRadios4" value="option4">
-          Einzeltherapie
-        </label>
+      <div class="col-sm-10">
+        <div class="radio">
+          <label>
+            <input type="radio" name="gridRadios" id="gridRadios1" value="option1" {{checked_0}}>Erstgespräch
+          </label>
+        </div>
+  	    <div class="radio">
+          <label>
+            <input type="radio" name="gridRadios" id="gridRadios2" value="option2" {{checked_1}}>Einzeltherapie
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="gridRadios" id="gridRadios3" value="option3" {{checked_2}}>Beratung
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="gridRadios" id="gridRadios4" value="option4" {{checked_3}}>Supervision & Coaching
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="gridRadios" id="gridRadios5" value="option5" {{checked_4}}>Allgemeine Anfrage
+          </label>
+        </div>
       </div>
     </div>
-  </div>
   <div class="form-group row">
     <div class="col-sm-offset-2 col-sm-10">
       <button type="submit" class="btn btn-secondary">Senden</button>

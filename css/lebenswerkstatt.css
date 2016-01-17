@@ -1,8 +1,3 @@
-.bgimage {
-  /*padding-top: 5rem;*/
-  background: url(../img/backgrounds/header_alpha_fullhd-min.png) no-repeat;
-  background-size: 100%;
-}
 
 .stacked-logo {
   position:absolute;
@@ -23,16 +18,56 @@
   margin-bottom: 0.5em;
 }
 
-.page-title {
-  vertical-align:baseline;
-  text-align:left;
+@media (min-width: 48em ) {
+ .bgimage {
+  /*padding-top: 5rem;*/
+  /*background: url(../img/backgrounds/header_alpha_fullhd-min.png) no-repeat;*/
+  background: url(../img/backgrounds/header_alpha_potrait.jpg) no-repeat;
+  background-size: 100%;
+ }
+
+ /* style for placing header text on bottom of table, using flex attribute */
+  .outerBox {
+      /*border: 1px dashed blue;*/
+      margin: 0 auto;
+      display: flex;
+  }
+  .innerBox {
+      /*border: 1px dashed red;*/
+      position: absolute;
+      bottom: -1em;
+      left: 2em;
+  }
+
+}
+@media (max-width: 47.9em ) {
+ .bgimage {
+  /*padding-top: 5rem;*/
+  background: url(../img/backgrounds/header_alpha_potrait.jpg) no-repeat;
+  background-size: 100%;
+ }
+  /* not needed, due to text being centered beneath picture anyway */
+  .outerBox {
+  }
+  .innerBox {
+    vertical-align:baseline;
+    text-align:center;
+  }
+}
+
+@media print {
+  .container {
+    width: auto;
+  }
 }
 
 /*
 .page-title {
-  vertical-align:bottom;text-align:left;
+  vertical-align:baseline;
+  text-align:left;
 }
 */
+
 
 /*
 .flex-container {

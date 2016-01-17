@@ -22,6 +22,7 @@
                 <div class="pull-left">
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsing-main-menu">
                         &#9776; <!-- Menu symbol -->
+                        Menu
                     </button>
                 </div>
             </div>
@@ -40,7 +41,7 @@
                         {% endif %} 
                     </li>
                     <li class="nav-item dropdown">
-                        {% if page.url contains "was_ist_psychotherapie" or page.url contains "integrative_therapie" or page.url contains "kosten" %}
+                        {% if page.url contains "was_ist_psychotherapie" or page.url contains "integrative_therapie" %}
                         <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><em>Psychotherapie</em></a>
                         {% else %}
                         <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Psychotherapie</a>
@@ -56,20 +57,8 @@
                             {% else %}
                             <a class="dropdown-item" href="/pages/integrative_therapie">Integrative Therapie</a>
                             {% endif %}
-                            <div class="dropdown-divider"></div>
-                            {% if page.url contains "kosten" %}
-                            <a class="dropdown-item active" href="/pages/kosten">Kosten</a>
-                            {% else %}
-                            <a class="dropdown-item" href="/pages/kosten">Kosten</a>
-                            {% endif %}
+                            <!--<div class="dropdown-divider"></div>-->
                         </div>
-                    </li>
-                    <li class="nav-item">
-                        {% if page.url contains "supervision_coaching" %}
-                        <a class="nav-link active" href="/pages/supervision_coaching">Supervision/Coaching</a>
-                        {% else %}
-                        <a class="nav-link" href="/pages/supervision_coaching">Supervision/Coaching</a>
-                        {% endif %}
                     </li>
                     <li class="nav-item">
                         {% if page.url contains "beratung" %}
@@ -79,10 +68,24 @@
                         {% endif %}
                     </li>
                     <li class="nav-item">
-                        {% if page.url contains "seminare_gruppen" %}
-                        <a class="nav-link active" href="/pages/seminare_gruppen">Seminare/Gruppen</a>
+                        {% if page.url contains "supervision_coaching" %}
+                        <a class="nav-link active" href="/pages/supervision_coaching">Supervision & Coaching</a>
                         {% else %}
-                        <a class="nav-link" href="/pages/seminare_gruppen">Seminare/Gruppen</a>
+                        <a class="nav-link" href="/pages/supervision_coaching">Supervision & Coaching</a>
+                        {% endif %}
+                    </li>
+                    <li class="nav-item">
+                        {% if page.url contains "seminare_gruppen" %}
+                        <a class="nav-link active" href="/pages/seminare_gruppen">Seminare & Gruppen</a>
+                        {% else %}
+                        <a class="nav-link" href="/pages/seminare_gruppen">Seminare & Gruppen</a>
+                        {% endif %}
+                    </li>
+                    <li class="nav-item">
+                        {% if page.url contains "kosten" %}
+                        <a class="nav-link active" href="/pages/kosten">Kosten</a>
+                        {% else %}
+                        <a class="nav-link" href="/pages/kosten">Kosten</a>
                         {% endif %}
                     </li>
                     <li class="nav-item">
@@ -97,6 +100,13 @@
                         <a class="nav-link active" href="/pages/kontakt">Kontakt</a>
                         {% else %}
                         <a class="nav-link" href="/pages/kontakt">Kontakt</a>
+                        {% endif %}
+                    </li>
+                    <li class="nav-item">
+                        {% if page.url contains "interessantes" %}
+                        <a class="nav-link active" href="/pages/interessantes">Interessantes</a>
+                        {% else %}
+                        <a class="nav-link" href="/pages/interessantes">Interessantes</a>
                         {% endif %}
                     </li>
                 </ul>

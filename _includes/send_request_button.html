@@ -1,0 +1,32 @@
+{% assign selected = include.selection %}
+{% capture modalId %}{{ "modalSendReuqest" }}{{ include.selection }}{% endcapture %}
+{% capture modalIdRaute %}{{ "#modalSendReuqest" }}{{ include.selection }}{% endcapture %}
+{% capture modalLabelId %}{{ "myModalLabel" }}{{ include.selection }}{% endcapture %}
+<!-- Button trigger modal -->
+<a class="pull-right btn btn-primary" data-toggle="modal" data-target={{modalIdRaute}}>Anfrage senden</a>
+<!--
+<p>
+  1Es wäre sinnvoll eine(n) Psychotherapeutin(en) aufzusuchen wenn einer 
+<a data-toggle="modal" data-target="#myModal" class="label label-warning">20 Gründe eine Psychotherapie zu beginnen</a>
+der auf Sie zutrifft.
+</p>-->
+
+<!-- Modal -->
+<div class="modal fade" id={{modalId}} tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <h4 class="modal-title" id={{modalLabelId}}>Anfrage</h4>
+      </div>
+      <div class="modal-body">
+      {% include contact_form.html select=selected %}
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button>
+      </div>
+    </div>
+  </div>
+</div>
