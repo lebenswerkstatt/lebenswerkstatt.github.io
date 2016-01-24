@@ -1,4 +1,4 @@
-
+/* button for choosing different text sizes! */
 .stacked-logo {
   position:absolute;
   z-index:100;
@@ -18,11 +18,72 @@
   margin-bottom: 0.5em;
 }
 
+/* TEXT STYLES */
+.welcome-head {
+  font-family: niconne, fantasy;
+  font-style: normal;
+  /*font-weight: 400;*/
+}
+/* 
+favs:
+header:
+  font-family: poiret-one, sans-serif;
+  font-weight: 800;
+  ..
+p:
+  font-family: droid-sans, sans-serif;
+quote:
+font-family: tangerine, sans-serif;
+;
+
+*/
+h1 {
+  /*font-size: 3em;*/
+}
+p {
+  font-family: droid-sans, sans-serif;
+  font-weight: 300;
+}
+ul {
+  font-family: droid-sans, sans-serif;
+  font-weight: 100;
+  /*font-family: poiret-one, sans-serif;
+  font-weight: 400;*/
+}
+.text-head {
+  font-family: poiret-one, sans-serif;
+  font-weight: 800;
+}
+.welcome-text {
+  font-size: 1.0em;
+}
+.content-text {
+  font-size: 1.0em;
+  font-family: droid-sans, sans-serif;
+}
+.quote-text {
+  font-size: 1.0em;
+  font-family: poiret-one, sans-serif;
+  font-style: italic;
+}
+.content-list {
+  font-size: 1.0em;
+  font-family: droid-sans, sans-serif;
+}
+
 @media (min-width: 48em ) {
+  /* dropbdown on hover */
+  .dropdown:hover .dropdown-menu {
+   display: block;
+  }
+  .navbar .dropdown-menu {
+   margin-top: 0px;
+  }
+  
  .bgimage {
   /*padding-top: 5rem;*/
-  /*background: url(../img/backgrounds/header_alpha_fullhd-min.png) no-repeat;*/
-  background: url(../img/backgrounds/header_alpha_potrait.jpg) no-repeat;
+  background: url(../img/backgrounds/header_alpha_fullhd-min.png) no-repeat;
+  /*background: url(../img/backgrounds/header_alpha_potrait.jpg) no-repeat;*/
   background-size: 100%;
  }
 
@@ -35,8 +96,13 @@
   .innerBox {
       /*border: 1px dashed red;*/
       position: absolute;
-      bottom: -1em;
+      bottom: -0.8em;
       left: 2em;
+  }
+  .innerBoxMiddle {
+      position: absolute;
+      bottom: 3em;
+      left: 0em;
   }
 
 }
@@ -50,6 +116,10 @@
   .outerBox {
   }
   .innerBox {
+    vertical-align:baseline;
+    text-align:center;
+  }
+  .innerBoxMiddle {
     vertical-align:baseline;
     text-align:center;
   }
