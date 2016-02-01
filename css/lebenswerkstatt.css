@@ -6,7 +6,7 @@
 }
 
 .header-image {
-  margin-top: 1em;
+  margin-top: 0.7em;
 }
 
 .site-footer {
@@ -18,12 +18,16 @@
   margin-bottom: 0.5em;
 }
 
-/* TEXT STYLES */
+/*.container {
+  max-width: 60em;
+}*/
+
+/* TEXT STYLES 
 .welcome-head {
   font-family: niconne, fantasy;
   font-style: normal;
-  /*font-weight: 400;*/
-}
+  font-weight: 400;
+}*/
 /* 
 favs:
 header:
@@ -37,7 +41,24 @@ font-family: tangerine, sans-serif;
 ;
 
 */
+body {
+  font-family: droid-sans, sans-serif;
+  font-weight: 300;
+}
+
 h1 {
+  font-family: poiret-one, sans-serif;
+  font-weight: 800;
+  /*font-size: 3em;*/
+}
+h2 {
+  font-family: poiret-one, sans-serif;
+  font-weight: 800;
+  /*font-size: 3em;*/
+}
+h3 {
+  font-family: poiret-one, sans-serif;
+  font-weight: 800;
   /*font-size: 3em;*/
 }
 p {
@@ -50,9 +71,26 @@ ul {
   /*font-family: poiret-one, sans-serif;
   font-weight: 400;*/
 }
+address {
+  font-family: droid-sans, sans-serif;
+  font-weight: 200;
+}
+footer {
+  font-family: droid-sans, sans-serif;
+  font-weight: 100;
+}
+.wide-navigation-center {
+  max-width: 77em;
+  margin: 0 auto;
+}
 .text-head {
   font-family: poiret-one, sans-serif;
   font-weight: 800;
+}
+.modal-title {
+  font-family: poiret-one, sans-serif;
+  font-weight: 800;
+  text-align: center;
 }
 .welcome-text {
   font-size: 1.0em;
@@ -62,13 +100,23 @@ ul {
   font-family: droid-sans, sans-serif;
 }
 .quote-text {
+  font-size: 1.5em;
+  font-family: cookie, cursive;
+  font-weight: 400;
+}
+.quote-author {
   font-size: 1.0em;
-  font-family: poiret-one, sans-serif;
-  font-style: italic;
+  font-family: droid-sans, sans-serif;
+  font-weight: 400;
+  font-style: none;
 }
 .content-list {
   font-size: 1.0em;
   font-family: droid-sans, sans-serif;
+}
+
+#elformo_honeypot {
+  display: none;
 }
 
 @media (min-width: 48em ) {
@@ -103,6 +151,11 @@ ul {
       position: absolute;
       bottom: 3em;
       left: 0em;
+  }
+
+  .small-text {
+    font-family: droid-sans, sans-serif;
+    font-size: 0.8em;
   }
 
 }

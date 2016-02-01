@@ -31,8 +31,16 @@
 			"file": "pages/kosten/index.html",
 			"settings":
 			{
-				"buffer_size": 2847,
+				"buffer_size": 2733,
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "_includes/header.html",
+			"settings":
+			{
+				"buffer_size": 6248,
+				"line_ending": "Unix"
 			}
 		},
 		{
@@ -47,7 +55,7 @@
 			"file": "pages/beratung/index.html",
 			"settings":
 			{
-				"buffer_size": 834,
+				"buffer_size": 792,
 				"line_ending": "Windows"
 			}
 		},
@@ -55,7 +63,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 944,
+				"buffer_size": 942,
 				"line_ending": "Unix"
 			}
 		},
@@ -65,6 +73,14 @@
 			{
 				"buffer_size": 958,
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/D/SimpleUE4PSMove/Plugins/PSMovePlugin/RandomNotes.txt",
+			"settings":
+			{
+				"buffer_size": 6013,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -100,10 +116,9 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/ademe/Dropbox/Projects/Praxis-Lebenswerkstatt/plw-jekyll",
-		"/C/Users/ademe/Dropbox/Projects/Praxis-Lebenswerkstatt/plw-jekyll/_includes",
-		"/C/Users/ademe/Dropbox/Projects/Praxis-Lebenswerkstatt/plw-jekyll/pages",
-		"/C/Users/ademe/Dropbox/Projects/Praxis-Lebenswerkstatt/plw-jekyll/pages/kosten"
+		"/C/Users/ademe/Dropbox/Projects/Praxis-Lebenswerkstatt/Website/praxis-lebenswerkstatt",
+		"/C/Users/ademe/Dropbox/Projects/Praxis-Lebenswerkstatt/Website/praxis-lebenswerkstatt/pages",
+		"/C/Users/ademe/Dropbox/Projects/Praxis-Lebenswerkstatt/Website/praxis-lebenswerkstatt/pages/kosten"
 	],
 	"file_history":
 	[
@@ -177,7 +192,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 8,
 			"sheets":
 			[
 				{
@@ -207,7 +222,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
@@ -237,7 +252,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
@@ -246,15 +261,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2847,
+						"buffer_size": 2733,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1089,
-								1089
+								648,
+								648
 							]
 						],
 						"settings":
@@ -266,11 +281,41 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
 					"buffer": 3,
+					"file": "_includes/header.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6248,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								270,
+								270
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 972.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
 					"file": "pages/seminare_gruppen/index.html",
 					"semi_transient": false,
 					"settings":
@@ -298,20 +343,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 5,
 					"file": "pages/beratung/index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 834,
+						"buffer_size": 792,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								16,
-								16
+								0,
+								0
 							]
 						],
 						"settings":
@@ -326,20 +371,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 6,
 					"file": "index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 944,
+						"buffer_size": 942,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								167,
-								167
+								0,
+								0
 							]
 						],
 						"settings":
@@ -351,11 +396,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 7,
 					"file": "_layouts/page.html",
 					"semi_transient": false,
 					"settings":
@@ -367,8 +412,8 @@
 						"selection":
 						[
 							[
-								803,
-								820
+								932,
+								932
 							]
 						],
 						"settings":
@@ -381,7 +426,35 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/D/SimpleUE4PSMove/Plugins/PSMovePlugin/RandomNotes.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6013,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
 					"type": "text"
 				}
 			]

@@ -4,16 +4,32 @@ title: Herzlich Willkommen
 image: /img/head/reinhard_eva_freigestellt-min.png
 ---
 <div class="row">
-	<div class="col-xs-12 col-md-8">
+	<div class="col-xs-12 col-md-6 col-lg-8">
 		<p class="lead">
 		Vielleicht erleben Sie gerade schwierige Zeiten oder wollen sich persönlich bzw. beruflich weiterentwickeln. Gerne unterstützen wir Sie dabei Ihr Leben freudvoller und selbstbestimmter zu gestalten oder einen guten Weg aus Ihren Problemen zu finden.
-		Wenn unsere Informationen Sie neugierig machen, würden wir uns freuen, wenn Sie mit uns in Kontakt treten. 
+		Wenn unsere Informationen Sie neugierig machen, würden wir uns freuen, wenn Sie mit uns in <a href="/pages/kontakt">Kontakt</a> treten. 
 		</p>
+		<br>
+		<div class="row">
+			<div class="col-xs-12 col-lg-9">
+				<h4 id="aktuelles" class="text-head">Aktuelles</h4>
+				<hr>
+				{% include current.html %}
+			</div>
+		</div>
 	</div>
-	<div class="col-xs-12 col-md-4">
+	<div class="col-xs-12 col-md-6 col-lg-4">
 		<blockquote class="blockquote blockquote">
 		  <p class="quote-text">Je besser wir uns selber kennen, desto besser wird unser Leben. Wenn wir Probleme bekommen, hat das oft mit Teilen unseres Selbst zu tun, die wir nicht kennen</p>
-		  <footer class="blockquote-footer"><cite title="Irvin D. Yalom">Irvin D. Yalom</cite></footer>
+		  <div class="quote-author"><footer class="blockquote-footer"><cite title="Irvin D. Yalom">Irvin D. Yalom</cite></footer></div>
 		</blockquote>
+		<br>
+		<h4 class="text-head">Terminvereinbarung</h4>
+		<hr>
+		<div class="row">
+			<div class="col-xs-12 col-sm-6 col-md-6 small-text">{% include address_eva.html %}</div>
+			<div class="col-xs-12 col-sm-6 col-md-6 small-text">{% include address_reinhard.html %}</div>
+			<div class="col-xs-12 col-lg-8 small-text">{% include address_notel.html %}</div>
+		</div>
 	</div>
 </div>

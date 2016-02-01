@@ -1,24 +1,28 @@
 {% assign selection = include.select %}
+{% assign subjectline = "[Anfrage durch Kontaktformular]" %}
 {% case selection %}
-{% when '0' %} {% assign checked_0 ="checked" %}
-{% when '1' %} {% assign checked_1 ="checked" %}
+{% when '1' %} {% assign checked_1 ="checked" subject= %}
 {% when '2' %} {% assign checked_2 ="checked" %}
 {% when '3' %} {% assign checked_3 ="checked" %}
-{% else %}     {% assign checked_4 ="checked" %}
+{% when '4' %} {% assign checked_4 ="checked" %}
+{% else %}     {% assign checked_5 ="checked" %}
 {% endcase %}
 
-<form>
+<form action="//flipmail.co/api/Fc4JWr4JSoUDX8rzwKLb" method="post">
+    <input type="hidden" name="_subject" value={{subjectline}}>
+    <input type="hidden" name="_after" value="http://praxis-lebenswerkstatt.at/pages/thank_you">
+    <input type="text" name="_honey" value="" style="display:none">
   <div class="form-group row">
-    <label for="inputEmail3" class="col-sm-2 form-control-label">Email</label>
+    <label for="emailField" class="col-sm-2 form-control-label">Email</label>
     <div class="col-sm-10">
-      <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+      <input id="email" name="email" type="email" class="form-control" placeholder="name@mail.at">
     </div>
   </div>
   <!-- add phone number -->
   <div class="form-group row">
     <label for="inputPassword3" class="col-sm-2 form-control-label">Anfrage</label>
     <div class="col-sm-10">
-      <textarea class="form-control" id="exampleTextarea" rows="5"></textarea>
+      <textarea id="comment" name="Anfrage" class="form-control" rows="5"></textarea>
     </div>
   </div>
   <!-- here have calendar show up, if person chooses therapy session, mark available dates -->
@@ -27,34 +31,34 @@
       <div class="col-sm-10">
         <div class="radio">
           <label>
-            <input type="radio" name="gridRadios" id="gridRadios1" value="option1" {{checked_0}}>Erstgespräch
+            <input type="radio" name="Anfrageart" id="gridRadios1" value="Psychotherapie" {{checked_1}}>Psychotherapie
           </label>
         </div>
   	    <div class="radio">
           <label>
-            <input type="radio" name="gridRadios" id="gridRadios2" value="option2" {{checked_1}}>Einzeltherapie
+            <input type="radio" name="Anfrageart" id="gridRadios2" value="Beratung" {{checked_2}}>Beratung
           </label>
         </div>
         <div class="radio">
           <label>
-            <input type="radio" name="gridRadios" id="gridRadios3" value="option3" {{checked_2}}>Beratung
+            <input type="radio" name="Anfrageart" id="gridRadios3" value="Supervision & Coaching" {{checked_3}}>Supervision & Coaching
           </label>
         </div>
         <div class="radio">
           <label>
-            <input type="radio" name="gridRadios" id="gridRadios4" value="option4" {{checked_3}}>Supervision & Coaching
+            <input type="radio" name="Anfrageart" id="gridRadios4" value="Seminare/Gruppen" {{checked_4}}>Seminare/Gruppen
           </label>
         </div>
         <div class="radio">
           <label>
-            <input type="radio" name="gridRadios" id="gridRadios5" value="option5" {{checked_4}}>Allgemeine Anfrage
+            <input type="radio" name="Anfrageart" id="gridRadios5" value="Allgemeine Anfrage" {{checked_5}}>Allgemeine Anfrage
           </label>
         </div>
       </div>
     </div>
   <div class="form-group row">
     <div class="col-sm-offset-2 col-sm-10">
-      <button type="submit" class="btn btn-secondary">Senden</button>
+      <button id="submit" name="submit" type="submit" class="btn btn-secondary">Senden</button>
     </div>
   </div>
 </form>
