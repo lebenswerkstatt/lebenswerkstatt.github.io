@@ -1,4 +1,5 @@
 /* button for choosing different text sizes! */
+
 .stacked-logo {
   position:absolute;
   z-index:100;
@@ -10,37 +11,24 @@
 }
 
 .site-footer {
-  background: rgba(200,211,211,120)
+  background:url("../img/backgrounds/footer_background_portrait.jpg") no-repeat  center top;
+  padding-top: 4em;
 }
 
 .footer-maps {
-  margin-top: 0.5em;
+  padding-top: 1em;
   margin-bottom: 0.5em;
 }
 
-/*.container {
-  max-width: 60em;
-}*/
-
-/* TEXT STYLES 
-.welcome-head {
-  font-family: niconne, fantasy;
-  font-style: normal;
-  font-weight: 400;
-}*/
-/* 
-favs:
-header:
-  font-family: poiret-one, sans-serif;
-  font-weight: 800;
-  ..
-p:
+.row {
   font-family: droid-sans, sans-serif;
-quote:
-font-family: tangerine, sans-serif;
-;
+  font-weight: 100; 
+}
 
-*/
+.intended {
+  margin-left: 0.2em;
+}
+
 body {
   font-family: droid-sans, sans-serif;
   font-weight: 300;
@@ -75,14 +63,13 @@ address {
   font-family: droid-sans, sans-serif;
   font-weight: 200;
 }
-footer {
-  font-family: droid-sans, sans-serif;
-  font-weight: 100;
-}
+
+
 .wide-navigation-center {
-  max-width: 77em;
+  max-width: 76.1em;
   margin: 0 auto;
 }
+
 .text-head {
   font-family: poiret-one, sans-serif;
   font-weight: 800;
@@ -100,9 +87,9 @@ footer {
   font-family: droid-sans, sans-serif;
 }
 .quote-text {
-  font-size: 1.5em;
+  font-size: 1.25em;
   font-family: cookie, cursive;
-  font-weight: 400;
+  font-weight: 100;
 }
 .quote-author {
   font-size: 1.0em;
@@ -120,6 +107,7 @@ footer {
 }
 
 @media (min-width: 48em ) {
+
   /* dropbdown on hover */
   .dropdown:hover .dropdown-menu {
    display: block;
@@ -183,42 +171,3 @@ footer {
     width: auto;
   }
 }
-
-/*
-.page-title {
-  vertical-align:baseline;
-  text-align:left;
-}
-*/
-
-
-/*
-.flex-container {
-    display: -webkit-flex;
-    display: flex;
-    width: 100px;
-    height: 400px;
-    background-color: Silver;
-    -webkit-align-self: flex-end;
-    align-self: flex-end;
-    align-items: flex-end;
-}
-
-.flex-item {
-    background-color: DeepSkyBlue;
-    width: 100px;
-    height: 400px;
-    margin: auto;
-    -webkit-align-self: flex-end;
-    align-self: flex-end;
-}
-
-.item2 {
-    -webkit-align-self: flex-end;
-    align-self: flex-end;
-}*/
-
-/*.starter-template {
-  padding: 3rem 1.5rem;
-  text-align: center;
-}*/

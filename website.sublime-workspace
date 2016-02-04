@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"margin-",
+				"margin-top"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
 				"font-",
 				"font-size"
 			]
@@ -12,74 +20,42 @@
 	"buffers":
 	[
 		{
-			"file": "_includes/head.html",
-			"settings":
-			{
-				"buffer_size": 996,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "css/lebenswerkstatt.css",
-			"settings":
-			{
-				"buffer_size": 2978,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "pages/kosten/index.html",
-			"settings":
-			{
-				"buffer_size": 2733,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "_includes/header.html",
-			"settings":
-			{
-				"buffer_size": 6248,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "pages/seminare_gruppen/index.html",
-			"settings":
-			{
-				"buffer_size": 1418,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "pages/beratung/index.html",
-			"settings":
-			{
-				"buffer_size": 792,
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 942,
+				"buffer_size": 2087,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "_layouts/page.html",
+			"file": "_includes/current.html",
 			"settings":
 			{
-				"buffer_size": 958,
+				"buffer_size": 348,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/D/SimpleUE4PSMove/Plugins/PSMovePlugin/RandomNotes.txt",
+			"file": "_posts/2016-02-22-gruppentherapie-anfaenger.markdown",
 			"settings":
 			{
-				"buffer_size": 6013,
+				"buffer_size": 774,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_layouts/post_aktuell.html",
+			"settings":
+			{
+				"buffer_size": 705,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "pages/integrative_therapie/index.html",
+			"settings":
+			{
+				"buffer_size": 1583,
 				"line_ending": "Windows"
 			}
 		}
@@ -116,12 +92,49 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/ademe/Dropbox/Projects/Praxis-Lebenswerkstatt/Website/praxis-lebenswerkstatt",
-		"/C/Users/ademe/Dropbox/Projects/Praxis-Lebenswerkstatt/Website/praxis-lebenswerkstatt/pages",
-		"/C/Users/ademe/Dropbox/Projects/Praxis-Lebenswerkstatt/Website/praxis-lebenswerkstatt/pages/kosten"
+		"/Users/alex/Dropbox/Projects/Praxis-Lebenswerkstatt/Website/praxis-lebenswerkstatt",
+		"/Users/alex/Dropbox/Projects/Praxis-Lebenswerkstatt/Website/praxis-lebenswerkstatt/_layouts",
+		"/Users/alex/Dropbox/Projects/Praxis-Lebenswerkstatt/Website/praxis-lebenswerkstatt/_posts",
+		"/Users/alex/Dropbox/Projects/Praxis-Lebenswerkstatt/Website/praxis-lebenswerkstatt/_seminare_und_gruppen",
+		"/Users/alex/Dropbox/Projects/Praxis-Lebenswerkstatt/Website/praxis-lebenswerkstatt/pages",
+		"/Users/alex/Dropbox/Projects/Praxis-Lebenswerkstatt/Website/praxis-lebenswerkstatt/pages/integrative_therapie"
 	],
 	"file_history":
 	[
+		"/Users/alex/Dropbox/Projects/Praxis-Lebenswerkstatt/Website/praxis-lebenswerkstatt/css/lebenswerkstatt.css",
+		"/Users/alex/Dropbox/Projects/Praxis-Lebenswerkstatt/Website/praxis-lebenswerkstatt/_config.yml",
+		"/Users/alex/Dropbox/Projects/Praxis-Lebenswerkstatt/Website/praxis-lebenswerkstatt/_layouts/post.html",
+		"/Users/alex/Dropbox/Projects/Praxis-Lebenswerkstatt/Website/praxis-lebenswerkstatt/_posts/2015-09-27-welcome-to-jekyll.markdown",
+		"/Users/alex/Dropbox/Projects/Praxis-Lebenswerkstatt/Website/praxis-lebenswerkstatt/_includes/head.html",
+		"/Users/alex/Dropbox/Projects/Praxis-Lebenswerkstatt/Website/praxis-lebenswerkstatt/_includes/footer.html",
+		"/Users/alex/Dropbox/Projects/Praxis-Lebenswerkstatt/Website/praxis-lebenswerkstatt/index.html",
+		"/Users/alex/Dropbox/Projects/Praxis-Lebenswerkstatt/Website/praxis-lebenswerkstatt/_includes/header.html",
+		"/Users/alex/Dropbox/Projects/Praxis-Lebenswerkstatt/Website/praxis-lebenswerkstatt/_layouts/default.html",
+		"/Users/alex/Dropbox/Projects/Praxis-Lebenswerkstatt/Website/praxis-lebenswerkstatt/pages/kontakt/index.html",
+		"/C/Users/ademe/Dropbox/Projects/Praxis-Lebenswerkstatt/Website/FINALE/Website 1.0/Texte/122 Geschichten.txt",
+		"/C/Users/ademe/Dropbox/Projects/Praxis-Lebenswerkstatt/Website/praxis-lebenswerkstatt/pages/thank_you/index.html",
+		"/C/Users/ademe/Dropbox/Projects/Praxis-Lebenswerkstatt/Website/praxis-lebenswerkstatt/pages/seminare_gruppen/index.html",
+		"/C/Users/ademe/Dropbox/Projects/Praxis-Lebenswerkstatt/Website/praxis-lebenswerkstatt/_includes/current.html",
+		"/C/Users/ademe/Dropbox/Projects/Praxis-Lebenswerkstatt/Website/praxis-lebenswerkstatt/_includes/man_findet_modal.html",
+		"/C/Users/ademe/Dropbox/Projects/Praxis-Lebenswerkstatt/Website/praxis-lebenswerkstatt/thank_you/index.html",
+		"/C/Users/ademe/Dropbox/Projects/Praxis-Lebenswerkstatt/Website/praxis-lebenswerkstatt/_includes/contact_form.html",
+		"/C/Users/ademe/Dropbox/Projects/Praxis-Lebenswerkstatt/Website/praxis-lebenswerkstatt/_includes/twenty_reasons.html",
+		"/C/Users/ademe/Dropbox/Projects/Praxis-Lebenswerkstatt/Website/praxis-lebenswerkstatt/pages/supervision_coaching/index.html",
+		"/C/Users/ademe/Dropbox/Projects/Praxis-Lebenswerkstatt/Website/praxis-lebenswerkstatt/css/lebenswerkstatt.css",
+		"/C/Users/ademe/Dropbox/Projects/Praxis-Lebenswerkstatt/Website/praxis-lebenswerkstatt/_includes/send_request_button.html",
+		"/C/Users/ademe/Dropbox/Projects/Praxis-Lebenswerkstatt/Website/praxis-lebenswerkstatt/_includes/address.html",
+		"/C/Users/ademe/Dropbox/Projects/Praxis-Lebenswerkstatt/Website/praxis-lebenswerkstatt/_includes/address_notel.html",
+		"/C/Users/ademe/Dropbox/Projects/Praxis-Lebenswerkstatt/Website/praxis-lebenswerkstatt/pages/kontakt/index.html",
+		"/C/Users/ademe/Dropbox/Projects/Praxis-Lebenswerkstatt/Website/praxis-lebenswerkstatt/pages/impressium/index.html",
+		"/C/Users/ademe/Dropbox/Projects/Praxis-Lebenswerkstatt/Website/FINALE/Website 1.0/Texte/12 Interessantes.txt",
+		"/C/Users/ademe/Dropbox/Projects/Praxis-Lebenswerkstatt/Website/praxis-lebenswerkstatt/_includes/address_eva.html",
+		"/C/Users/ademe/Dropbox/Projects/Praxis-Lebenswerkstatt/Website/praxis-lebenswerkstatt/_includes/head.html",
+		"/C/Users/ademe/Dropbox/Projects/Praxis-Lebenswerkstatt/Website/praxis-lebenswerkstatt/pages/kosten/index.html",
+		"/C/Users/ademe/Dropbox/Projects/Praxis-Lebenswerkstatt/Website/praxis-lebenswerkstatt/_includes/header.html",
+		"/C/Users/ademe/Dropbox/Projects/Praxis-Lebenswerkstatt/Website/praxis-lebenswerkstatt/index.html",
+		"/C/Users/ademe/Dropbox/Projects/Praxis-Lebenswerkstatt/Website/praxis-lebenswerkstatt/pages/beratung/index.html",
+		"/C/Users/ademe/Dropbox/Projects/Praxis-Lebenswerkstatt/Website/praxis-lebenswerkstatt/_layouts/page.html",
+		"/D/SimpleUE4PSMove/Plugins/PSMovePlugin/RandomNotes.txt",
 		"/Users/alex/Dropbox/Projects/Praxis-Lebenswerkstatt/plw-jekyll/pages/kosten/index.html",
 		"/Users/alex/Dropbox/Projects/Praxis-Lebenswerkstatt/plw-jekyll/_includes/send_request_button.html",
 		"/Users/alex/Dropbox/Projects/Praxis-Lebenswerkstatt/plw-jekyll/_layouts/page_longimage.html",
@@ -157,7 +170,7 @@
 	],
 	"find":
 	{
-		"height": 35.0
+		"height": 34.0
 	},
 	"find_in_files":
 	{
@@ -173,6 +186,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"modal-title",
 			"responsive",
 			"img-responsive"
 		],
@@ -192,84 +206,24 @@
 	"groups":
 	[
 		{
-			"selected": 8,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "_includes/head.html",
+					"file": "index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 996,
+						"buffer_size": 2087,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								512,
-								512
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "css/lebenswerkstatt.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2978,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1706,
-								1706
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "pages/kosten/index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2733,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								648,
-								648
+								748,
+								748
 							]
 						],
 						"settings":
@@ -281,54 +235,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "_includes/header.html",
+					"buffer": 1,
+					"file": "_includes/current.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6248,
+						"buffer_size": 348,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								270,
-								270
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 972.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "pages/seminare_gruppen/index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1418,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								109,
-								109
+								277,
+								277
 							]
 						],
 						"settings":
@@ -339,24 +263,80 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
-					"file": "pages/beratung/index.html",
+					"buffer": 2,
+					"file": "_posts/2016-02-22-gruppentherapie-anfaenger.markdown",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 792,
+						"buffer_size": 774,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								215,
+								215
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "_layouts/post_aktuell.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 705,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								530,
+								530
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "pages/integrative_therapie/index.html",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 1583,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1583,
+								1402
 							]
 						],
 						"settings":
@@ -368,93 +348,6 @@
 						"zoom_level": 1.0
 					},
 					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 942,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "_layouts/page.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 958,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								932,
-								932
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "/D/SimpleUE4PSMove/Plugins/PSMovePlugin/RandomNotes.txt",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 6013,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
 					"type": "text"
 				}
 			]

@@ -1,5 +1,5 @@
 {% assign selection = include.select %}
-{% assign subjectline = "[Anfrage]" %}
+{% assign subjectline = "[Anfrage durch Kontaktformular]" %}
 {% case selection %}
 {% when '1' %} {% assign checked_1 ="checked" subject= %}
 {% when '2' %} {% assign checked_2 ="checked" %}
@@ -11,17 +11,11 @@
 <form action="//flipmail.co/api/Fc4JWr4JSoUDX8rzwKLb" method="post">
     <input type="hidden" name="_subject" value={{subjectline}}>
     <input type="hidden" name="_after" value="http://praxis-lebenswerkstatt.at/pages/thank_you">
-    <input type="text"   name="_honey" value="" style="display:none">
+    <input type="text" name="_honey" value="" style="display:none">
   <div class="form-group row">
     <label for="emailField" class="col-sm-2 form-control-label">Email</label>
     <div class="col-sm-10">
-      <input id="email" name="email" type="email" class="form-control" placeholder="name@web.at">
-    </div>
-  </div>
-  <div class="form-group row">
-    <label for="phoneField" class="col-sm-2 form-control-label">Telefon</label>
-    <div class="col-sm-10">
-      <input id="phone" name="phone" type="phone" class="form-control" placeholder="">
+      <input id="email" name="email" type="email" class="form-control" placeholder="name@mail.at">
     </div>
   </div>
   <!-- add phone number -->

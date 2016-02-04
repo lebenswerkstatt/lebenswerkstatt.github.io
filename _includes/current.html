@@ -1,0 +1,11 @@
+{% for post in site.posts %}
+<div class="row">
+	<div class="col-xs-3">
+	<strong>{{post.date | date: "%-d.%m.%Y" }}</strong>
+	</div>
+	<div class="col-xs-9">
+	<strong>{{post.title}}</strong><br>
+	<p>{{ post.excerpt | remove: '<p>' | remove: '</p>' | strip_html | truncatewords:14 }}<a href="{{post.url}}">[mehr..]</a></p>
+	</div>
+</div>
+{% endfor %}

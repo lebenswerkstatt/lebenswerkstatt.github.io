@@ -1,0 +1,38 @@
+---
+layout: default
+---
+<div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title"><br>{{ page.title }}</h1>
+    <p class="post-meta intended"><strong>Wann:</strong> {{ page.date | date: "%-d. %B %Y" }}</p>
+    <p class="intended">
+    {% if page.ort %}<strong>Ort:</strong> {{page.ort}}<br>{% endif %}
+
+    {% if page.leiter %}<strong>Gruppenleiter: </strong>{{ page.leiter }}<br>{% endif %}
+    {% if page.dauer %}<strong>Dauer:</strong> {{page.dauer}}<br>{% endif %}
+    </p>
+  </header>
+  <div class="row">
+    <div class="col-xs-12 col-md-6">
+    <article class="post-content">
+    {% if page.anmeldung %}<h4>&nbsp;</h4>{% endif %}
+    <hr>
+      {{ content }}
+    </article>
+    </div>
+    {% if page.anmeldung %}
+    <div class="col-xs-12 col-md-6">
+    <h4>Anmeldung</h4>
+    <hr>
+    {% include contact_form.html %}
+    </div>
+    {% endif %}
+  </div>
+  <nav>
+  <ul class="pager">
+    <li class="pager-prev"><a href="/#aktuelles"><span aria-hidden="true">&laquo;</span>Zurück</a></li>
+  </ul>
+</nav>
+
+</div>
