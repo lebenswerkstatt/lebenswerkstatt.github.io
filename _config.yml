@@ -10,3 +10,4 @@ url: "http://praxis-lebenswerkstatt.at" # the base hostname & protocol for your 
 future: true
 # Build settings
 markdown: kramdown
+default_locale: "de"

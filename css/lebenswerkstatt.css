@@ -91,22 +91,26 @@ address {
   font-family: cookie, cursive;
   font-weight: 100;
 }
+
 .quote-author {
-  font-size: 1.0em;
-  font-family: droid-sans, sans-serif;
-  font-weight: 400;
-  font-style: none;
-}
+    font-family: droid-sans, sans-serif;
+    font-size: 0.7em;
+    color: grey;
+  }
+
 .content-list {
   font-size: 1.0em;
   font-family: droid-sans, sans-serif;
 }
 
-#elformo_honeypot {
-  display: none;
-}
-
 @media (min-width: 48em ) {
+
+  .bgimage {
+  /*padding-top: 5rem;*/
+  background: url(../img/backgrounds/header_cut_2.jpg) no-repeat;
+  /*background: url(../img/backgrounds/header_alpha_potrait.jpg) no-repeat;*/
+  background-size: 100%;
+ }
 
   /* dropbdown on hover */
   .dropdown:hover .dropdown-menu {
@@ -115,13 +119,6 @@ address {
   .navbar .dropdown-menu {
    margin-top: 0px;
   }
-  
- .bgimage {
-  /*padding-top: 5rem;*/
-  background: url(../img/backgrounds/header_alpha_fullhd-min.png) no-repeat;
-  /*background: url(../img/backgrounds/header_alpha_potrait.jpg) no-repeat;*/
-  background-size: 100%;
- }
 
  /* style for placing header text on bottom of table, using flex attribute */
   .outerBox {
@@ -150,7 +147,8 @@ address {
 @media (max-width: 47.9em ) {
  .bgimage {
   /*padding-top: 5rem;*/
-  background: url(../img/backgrounds/header_alpha_potrait.jpg) no-repeat;
+  background: url(../img/backgrounds/header_cut_portrait.jpg) no-repeat;
+  /*background: url(../img/backgrounds/header_alpha_potrait.jpg) no-repeat;*/
   background-size: 100%;
  }
   /* not needed, due to text being centered beneath picture anyway */

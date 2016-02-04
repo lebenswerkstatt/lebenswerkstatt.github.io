@@ -3,6 +3,9 @@
 	[
 		{
 			"path": "pages"
+		},
+		{
+			"path": "_posts"
 		}
 	]
 }

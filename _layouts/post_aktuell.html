@@ -5,17 +5,38 @@ layout: default
 
   <header class="post-header">
     <h1 class="post-title"><br>{{ page.title }}</h1>
-    <p class="post-meta intended"><strong>Wann:</strong> {{ page.date | date: "%-d. %B %Y" }}</p>
+    <p class="post-meta intended"></p>
     <p class="intended">
+      <strong>Wann:</strong>
+      {% assign m = page.date | date: "%-m" %}
+      {{ page.date | date: "%-d" }}.
+      {% case m %}
+        {% when '1' %}Januar
+        {% when '2' %}Februar
+        {% when '3' %}März
+        {% when '4' %}April
+        {% when '5' %}Mai
+        {% when '6' %}Juni
+        {% when '7' %}Juli
+        {% when '8' %}August
+        {% when '9' %}September
+        {% when '10' %}Oktober
+        {% when '11' %}November
+        {% when '12' %}Dezember
+      {% endcase %}
+      {{ page.date | date: "%Y" }}
+      <br>
+    {% if page.zeit %}<strong>Zeit: </strong>{{ page.zeit }}<br>{% endif %}
     {% if page.ort %}<strong>Ort:</strong> {{page.ort}}<br>{% endif %}
-
+    {% if page.beginn %}<strong>Beginn: </strong>{{ page.beginn }}<br>{% endif %}
+    {% if page.ende %}<strong>Ende: </strong>{{ page.ende }}<br>{% endif %}
     {% if page.leiter %}<strong>Gruppenleiter: </strong>{{ page.leiter }}<br>{% endif %}
     {% if page.dauer %}<strong>Dauer:</strong> {{page.dauer}}<br>{% endif %}
     </p>
   </header>
   <div class="row">
     <div class="col-xs-12 col-md-6">
-    <article class="post-content">
+    <article class="post-content"><br>
     {% if page.anmeldung %}<h4>&nbsp;</h4>{% endif %}
     <hr>
       {{ content }}

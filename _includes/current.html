@@ -1,4 +1,4 @@
-{% for post in site.posts %}
+{% for post in site.posts reversed limit:6 %}
 <div class="row">
 	<div class="col-xs-3">
 	<strong>{{post.date | date: "%-d.%m.%Y" }}</strong>
