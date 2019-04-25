@@ -1,14 +1,14 @@
 ---
-layout: post_aktuell
-title:  "Weisheit der Natur"
-date:   2016-08-13
-ort: Hotel Marko, Seenweg 41, 9122 St. Kanzian am Klopeiner See
-zeit: "Samstag, 13. August, 10:00 bis Sonntag, 14. August 2016, 12:30"
-leiter: "Eva Mathes, MSc"
-anmeldung: true
-
-categories: seminar
+title: Weisheit der Natur
+date: 2016-08-13 00:00:00 Z
 published: false
+categories:
+- seminar
+layout: post_aktuell
+ort: Hotel Marko, Seenweg 41, 9122 St. Kanzian am Klopeiner See
+zeit: Samstag, 13. August, 10:00 bis Sonntag, 14. August 2016, 12:30
+leiter: Eva Mathes, MSc
+anmeldung: true
 ---
 
 **Seminar: Weisheit der Natur**

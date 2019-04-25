@@ -1,7 +1,7 @@
 ---
-layout: page_longimage
 title: Geschichten
-image: /img/head/atacamaboote_wide.jpg
+layout: page_longimage
+image: "/img/head/atacamaboote_wide.jpg"
 ---
 
 Man findet nur das was man erwartet

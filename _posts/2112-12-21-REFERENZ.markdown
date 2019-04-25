@@ -1,15 +1,16 @@
 ---
-layout: post_aktuell
-title:  "Referenz und Beispiel"
-date:   2112-12-21
-ort: Cafe Moser Seminarraum
-zeit: "von 14:30 bis 17:30 Uhr"
-leiter: "Eva und Reinhard"
-anmeldung: false
-
-categories: beispiel
+title: Referenz und Beispiel
+date: 2112-12-21 00:00:00 Z
 published: false
+categories:
+- beispiel
+layout: post_aktuell
+ort: Cafe Moser Seminarraum
+zeit: von 14:30 bis 17:30 Uhr
+leiter: Eva und Reinhard
+anmeldung: false
 ---
+
 Das ist normaler Text der angezeigt wird.
 
 Das ist eine Ueberschrift

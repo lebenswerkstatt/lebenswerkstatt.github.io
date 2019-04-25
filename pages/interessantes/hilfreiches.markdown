@@ -1,7 +1,7 @@
 ---
-layout: page_longimage
 title: Hilfreiches
-image: /img/head/atacamaboote_wide.jpg
+layout: page_longimage
+image: "/img/head/atacamaboote_wide.jpg"
 ---
 
 Gedanken zur Inklusion in der Schule [Auf dem Weg zur Inklusion](/dateien/Auf_dem_Weg_zur_Inklusion.pdf)

@@ -1,14 +1,14 @@
 ---
-layout: post_aktuell
-title:  "Begegnung mit der inneren Natur"
-date:   2016-07-16
-ort: Hotel Marko, Seenweg 41, 9122 St. Kanzian am Klopeiner See
-zeit: "Samstag, 16. Juli, 10:00 bis Sonntag, 17. Juli 2016, 12:30"
-leiter: "Eva Mathes, MSc"
-anmeldung: true
-
-categories: seminar
+title: Begegnung mit der inneren Natur
+date: 2016-07-16 00:00:00 Z
 published: false
+categories:
+- seminar
+layout: post_aktuell
+ort: Hotel Marko, Seenweg 41, 9122 St. Kanzian am Klopeiner See
+zeit: Samstag, 16. Juli, 10:00 bis Sonntag, 17. Juli 2016, 12:30
+leiter: Eva Mathes, MSc
+anmeldung: true
 ---
 
 **Seminar: Begegnung mit der inneren Natur**

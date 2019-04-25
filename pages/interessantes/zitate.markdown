@@ -1,8 +1,9 @@
 ---
-layout: page_longimage
 title: Zitate
-image: /img/head/atacamaboote_wide.jpg
+layout: page_longimage
+image: "/img/head/atacamaboote_wide.jpg"
 ---
+
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
 <i class="fa fa-quote-left"></i>

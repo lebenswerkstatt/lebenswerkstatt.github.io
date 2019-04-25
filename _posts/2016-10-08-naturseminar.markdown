@@ -1,14 +1,14 @@
 ---
-layout: post_aktuell
-title:  "Heilerleben in der Natur"
-date:   2016-10-08
-ort: Hotel Marko, Seenweg 41, 9122 St. Kanzian am Klopeiner See
-zeit: "Samstag, 08. Oktober, 10:00 bis Sonntag, 09. Oktober 2016, 12:30"
-leiter: "Eva Mathes, MSc"
-anmeldung: true
-
-categories: seminar
+title: Heilerleben in der Natur
+date: 2016-10-08 00:00:00 Z
 published: false
+categories:
+- seminar
+layout: post_aktuell
+ort: Hotel Marko, Seenweg 41, 9122 St. Kanzian am Klopeiner See
+zeit: Samstag, 08. Oktober, 10:00 bis Sonntag, 09. Oktober 2016, 12:30
+leiter: Eva Mathes, MSc
+anmeldung: true
 ---
 
 **Seminar: Heilerleben in der Natur**

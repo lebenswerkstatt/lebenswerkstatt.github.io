@@ -1,14 +1,14 @@
 ---
-layout: post_aktuell
-title:  "Sinnerleben in der Natur"
-date:   2016-09-03
-ort: Hotel Marko, Seenweg 41, 9122 St. Kanzian am Klopeiner See
-zeit: "Samstag, 03. September, 10:00 bis Sonntag, 04. September 2016, 12:30"
-leiter: "Eva Mathes, MSc"
-anmeldung: true
-
-categories: seminar
+title: Sinnerleben in der Natur
+date: 2016-09-03 00:00:00 Z
 published: false
+categories:
+- seminar
+layout: post_aktuell
+ort: Hotel Marko, Seenweg 41, 9122 St. Kanzian am Klopeiner See
+zeit: Samstag, 03. September, 10:00 bis Sonntag, 04. September 2016, 12:30
+leiter: Eva Mathes, MSc
+anmeldung: true
 ---
 
 **Seminar: Sinnerleben in der Natur**

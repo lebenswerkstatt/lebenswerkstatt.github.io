@@ -1,7 +1,7 @@
 ---
-layout: page_longimage
 title: Links
-image: /img/head/atacamaboote_wide.jpg
+layout: page_longimage
+image: "/img/head/atacamaboote_wide.jpg"
 ---
 
 Psychotherapie finanziell zu fördern, bringt insbesondere menschlichen Gewinn bzw. ein mehr an Gesundheit, ist aber auch von gesamtgesellschaftlichem Interesse
