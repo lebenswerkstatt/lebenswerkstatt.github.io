@@ -1,0 +1,2 @@
+gem install jekyll
+choco install visualstudiocode

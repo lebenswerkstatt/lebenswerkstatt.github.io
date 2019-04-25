@@ -58,7 +58,7 @@ Der Alte antwortete mit mildem Lächeln: “Wenn ich liege, dann liege ich. Wenn
 
 Die Fragenden schauten etwas betreten in die Runde. Einer platzte heraus: “Bitte, treibe keinen Spott mit uns. Was du sagst, tun wir auch. Wir schlafen, essen und gehen. Aber wir sind nicht glücklich. Was ist also dein Geheimnis?”
 
-Es kam die gleiche Antwort: “Wenn ich liege, dann liege ich. Wenn ich aufstehe, dann stehe ich auf. Wenn ich gehe, dann gehe ist und wenn ich esse, dann esse ich.”
+Es kam die gleiche Antwort: “Wenn ich liege, dann liege ich. Wenn ich aufstehe, dann stehe ich auf. Wenn ich gehe, dann gehe ich und wenn ich esse, dann esse ich.”
 
 Die Unruhe und den Unmut der Suchenden spürend fügte der Meister nach einer Weile hinzu: “Sicher liegt auch Ihr und Ihr geht auch und Ihr esst. Aber während Ihr liegt, denkt Ihr schon ans Aufstehen. Während Ihr aufsteht, überlegt Ihr wohin Ihr geht und während Ihr geht, fragt Ihr Euch, was Ihr essen werdet. So sind Eure Gedanken ständig woanders und nicht da, wo Ihr gerade seid. In dem Schnittpunkt zwischen Vergangenheit und Zukunft findet das eigentliche Leben statt. Lasst Euch auf diesen nicht messbaren Augenblick ganz ein und Ihr habt die Chance, wirklich glücklich und zufrieden zu sein.”
 

@@ -1,0 +1,72 @@
+﻿WICHTIGE ORDNER/DATEIEN
+=======================
+Wichtige Ordner:
+-------
+* pages:	beinhaltet Webseiten-Texte. Jede Seite hat eigenen Unterordner. 
+			eigentliche datei heißt meistens "index.html" (Ausnahme: Interessantes)
+* _posts:	beinhaltet Aktuelle Termine. Jede Datei entspricht einem Termin.
+* img:		beinhaltet Bilder der Website. Neue Bilder in den ordern "img/weitere" kopieren.
+* _includes:	beinhaltet Vorlagen für häufig wiederholende Texte (wie zum Beispiel Adresse/Anschrift)
+
+Dateien:
+--------
+* 1_lokale_vorschau.bat:			zum Anschauen und Testen der Aenderungen. (doppelklick zum ausfuehren)
+									Muss vor online stellen ausgefuehrt werden.
+* 1_Praxis-Lebenswerkstatt_Lokal:	Link der gueltig ist, wenn lokale_vorschau aktiv ist
+* 2_online_stellen.bat:				updated Website im Internet (doppelklick zum ausfuehren)
+* index.html:						Willkommensseite, oder anderer Inhalt (z.B. pages/kosten/index.html)
+* website-texte.sublime-project:	oeffnet Projekt zur schnellen Bearbeitung von Dateien
+
+
+AENDERUNGEN BEI SEITEN
+======================
+Inhalte der Seiten finden sich unter dem Ordner "pages". Jede Seite verfuegt ueber einen eigenen Ordner.
+Um zum Beispiel die die Kosten-Seite zu aendern, muss man in den Ordner "pages/kosten" gehen, und dort 
+die Datei "index.html" oeffnen. Die "index.html" Dateien beinhalten die Texte der jeweiligen Seiten.
+Sie koennen mit jedem Text-Editor geaendert werden.
+
+1. unter Ordner "pages/..." gehen
+3. "index.html" datei oeffnen (links: Sublime Text2), und Inhalt anpassen.
+4. speichern (strg s)
+5. zurueck zum Ordner "praxis-lebenswerkstatt"
+6. doppelklick "1_lokale_vorschau.bat" um eine Vorschau zu bekommen auf den neuen Eintrag = Praxis-Lebenswerkstatt-Lokal anklicken
+7. doppelklick "2_online_stellen.bat" um den neuen Eintrag online zu stellen 60gregor47enter
+
+
+NEUEN TERMIN UNTER AKTUELLES ERSTELLEN
+======================================
+0. gehe in Ordner "praxis-lebenswerkstatt"
+1. geh in Ordner "_posts"
+2. eine der Dateien kopieren, und folgend umbenennen:
+		"JAHR-MM-DD-Titel.markdown" z.b. "2016-03-22-WillkommenBeiUns.markdown"
+3. datei oeffnen, und Inhalt anpassen.
+4. speichern
+5. zurueck zum Ordner "praxis-lebenswerkstatt"
+6. doppelklick "1_lokale_vorschau.bat" um eine Vorschau zu bekommen auf den neuen Eintrag
+7. doppelklick "2_online_stellen.bat" um den neuen Eintrag online zu stellen
+
+
+ATTRIBUTE FUER AKTUELLE EINTRAEGE
+=================================
+(Referenz Datei, fuer Textformatierung, Links und BILDER: "2112-12-21-REFERENZ.markdown")
+
+Unter "_posts" befinden sich fuer jeden Termin eine Datei. Jede Datei muss immer nach dem Format
+"Datum-Titel.markdown" benannt werden (z.b. "2016-11-22-HalloUndWillkommen.markdown").
+Jeder Eintrag enthaelt eine Liste von Attributen, die benutzt werden um das Posting zu erstellen.
+Beispiel und Erklaehrung:
+---
+layout: post_aktuell			<< Das Layout das benutzt wird, bleibt immer gleich
+title:  "Selbsterfahrung"		<< Der Titel des Termines/Seminar/Gruppe
+date:   2016-03-15				<< Das Datum das Angezeigt wird
+ort: Praxis Lebenswerkstatt 	<< Der Ort an dem der Termin stattfindet
+zeit: "von 14:30 bis 17:30 Uhr" << Die Zeit, kann Text oder nur Uhrzeit sein
+leiter: "Eva & Reinhard"		<< Leiter des Termines
+anmeldung: false				<< Ob ein Anmeldeformular angezeigt werden soll
+
+categories: seminar 			<< Optional, kann genutzt werden um Termine zu gruppieren.
+published: false				<< WICHTIG! Sagt ob der Termin veroeffentlich werden soll
+									"true" fuer JA, soll veroeffentlicht werden
+									"false" fuer NEIN, soll nicht sichtbar sein
+									Kann praktisch sein um mehrere Termine vorzubereiten, wo 
+									Zeit/Ort oder anderes noch nicht sicher sind.  
+---

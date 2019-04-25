@@ -8,26 +8,90 @@
 	"buffers":
 	[
 		{
-			"file": "website-texte.sublime-workspace",
+			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 6078,
+				"buffer_size": 2039,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "_includes/header.html",
+			"file": "pages/supervision_coaching/index.html",
 			"settings":
 			{
-				"buffer_size": 6248,
+				"buffer_size": 1758,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "pages/kosten/index.html",
+			"settings":
+			{
+				"buffer_size": 2725,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "_includes/address.html",
+			"settings":
+			{
+				"buffer_size": 305,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "_posts/2112-12-21-REFERENZ.markdown",
+			"settings":
+			{
+				"buffer_size": 1461,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "pages/was_ist_psychotherapie/index.html",
+			"file": "_site/pages/supervision_coaching/index.html",
 			"settings":
 			{
-				"buffer_size": 1905,
+				"buffer_size": 13527,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "pages/seminare_gruppen/index.html",
+			"settings":
+			{
+				"buffer_size": 1419,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "_posts/2016-02-22-gruppentherapie-anfaenger.markdown",
+			"settings":
+			{
+				"buffer_size": 792,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_posts/2016-03-09-SupervisionBL.markdown",
+			"settings":
+			{
+				"buffer_size": 262,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "pages/interessantes/links.markdown",
+			"settings":
+			{
+				"buffer_size": 1161,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "pages/interessantes/hilfreiches.markdown",
+			"settings":
+			{
+				"buffer_size": 393,
 				"line_ending": "Windows"
 			}
 		},
@@ -35,32 +99,16 @@
 			"file": "pages/ueber_uns/index.html",
 			"settings":
 			{
-				"buffer_size": 3202,
+				"buffer_size": 3162,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "pages/kontakt/index.html",
+			"file": "pages/was_ist_psychotherapie/index.html",
 			"settings":
 			{
-				"buffer_size": 530,
+				"buffer_size": 1928,
 				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "pages/supervision_coaching/index.html",
-			"settings":
-			{
-				"buffer_size": 1666,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "index.html",
-			"settings":
-			{
-				"buffer_size": 942,
-				"line_ending": "Unix"
 			}
 		}
 	],
@@ -88,15 +136,31 @@
 	},
 	"file_history":
 	[
-		"/C/Users/Rh/Dropbox/Website/praxis-lebenswerkstatt/pages/kosten/index.html",
-		"/C/Users/Rh/Dropbox/Website/praxis-lebenswerkstatt/pages/supervision_coaching/index.html",
-		"/C/Users/Rh/Dropbox/Website/praxis-lebenswerkstatt/pages/impressium/index.html",
-		"/C/Users/Rh/Dropbox/Website/praxis-lebenswerkstatt/pages/ueber_uns/index.html",
+		"/C/Users/Rh/Dropbox/Website/praxis-lebenswerkstatt/_includes/man_findet_modal.html",
 		"/C/Users/Rh/Dropbox/Website/praxis-lebenswerkstatt/pages/beratung/index.html",
-		"/C/Users/Rh/Dropbox/Website/praxis-lebenswerkstatt/pages/was_ist_psychotherapie/index.html",
 		"/C/Users/Rh/Dropbox/Website/praxis-lebenswerkstatt/pages/integrative_therapie/index.html",
+		"/C/Users/Rh/Dropbox/Website/praxis-lebenswerkstatt/_includes/twenty_reasons.html",
+		"/C/Users/Rh/Dropbox/Website/praxis-lebenswerkstatt/pages/interessantes/hilfreiches.markdown",
+		"/C/Users/Rh/Dropbox/Website/praxis-lebenswerkstatt/pages/interessantes/zitate.markdown",
+		"/C/Users/Rh/Dropbox/Website/praxis-lebenswerkstatt/pages/interessantes/links.markdown",
+		"/C/Users/Rh/Dropbox/Website/praxis-lebenswerkstatt/pages/thank_you/index.html",
+		"/C/Users/Rh/Dropbox/Website/praxis-lebenswerkstatt/pages/seminare_gruppen/index.html",
+		"/C/Users/Rh/Dropbox/Website/praxis-lebenswerkstatt/_posts/2016-02-22-gruppentherapie-anfaenger copy 2.markdown",
+		"/C/Users/Rh/Dropbox/Website/praxis-lebenswerkstatt/_layouts/post_aktuell.html",
+		"/C/Users/Rh/Dropbox/Website/praxis-lebenswerkstatt/pages/interessantes/index.html",
+		"/C/Users/Rh/Dropbox/Website/praxis-lebenswerkstatt/_posts/2016-03-15-selbsterfahrung.markdown",
+		"/C/Users/Rh/Dropbox/Website/praxis-lebenswerkstatt/_posts/2016-03-09-SupervisionBL.markdown",
+		"/C/Users/Rh/Dropbox/Website/praxis-lebenswerkstatt/pages/interessantes/geschichten.markdown",
 		"/C/Users/Rh/Dropbox/Website/praxis-lebenswerkstatt/index.html",
+		"/C/Users/Rh/Dropbox/Website/praxis-lebenswerkstatt/pages/supervision_coaching/index.html",
+		"/C/Users/Rh/Dropbox/Website/praxis-lebenswerkstatt/pages/kontakt/index.html",
+		"/C/Users/Rh/Dropbox/Website/praxis-lebenswerkstatt/pages/ueber_uns/index.html",
+		"/C/Users/Rh/Dropbox/Website/praxis-lebenswerkstatt/pages/was_ist_psychotherapie/index.html",
+		"/C/Users/Rh/Dropbox/Website/praxis-lebenswerkstatt/_includes/header.html",
 		"/C/Users/Rh/Dropbox/Website/praxis-lebenswerkstatt/website-texte.sublime-workspace",
+		"/C/Users/Rh/Dropbox/Website/praxis-lebenswerkstatt/website.sublime-workspace",
+		"/C/Users/Rh/Dropbox/Website/praxis-lebenswerkstatt/pages/kosten/index.html",
+		"/C/Users/Rh/Dropbox/Website/praxis-lebenswerkstatt/pages/impressium/index.html",
 		"/C/Users/Rh/Dropbox/Website/plw-jekyll/pages/ueber_uns/index.html",
 		"/C/Users/Rh/Dropbox/Website/plw-jekyll/pages/supervision_coaching/index.html",
 		"/C/Users/Rh/Dropbox/Website/plw-jekyll/pages/integrative_therapie/index.html"
@@ -134,15 +198,147 @@
 	"groups":
 	[
 		{
-			"selected": 6,
+			"selected": 9,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "website-texte.sublime-workspace",
+					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 6078,
+						"buffer_size": 2039,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								323,
+								323
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "pages/supervision_coaching/index.html",
+					"settings":
+					{
+						"buffer_size": 1758,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								434,
+								434
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "pages/kosten/index.html",
+					"settings":
+					{
+						"buffer_size": 2725,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2533,
+								2533
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 210.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "_includes/address.html",
+					"settings":
+					{
+						"buffer_size": 305,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								56,
+								56
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "_posts/2112-12-21-REFERENZ.markdown",
+					"settings":
+					{
+						"buffer_size": 1461,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								218,
+								218
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "_site/pages/supervision_coaching/index.html",
+					"settings":
+					{
+						"buffer_size": 13527,
 						"regions":
 						{
 						},
@@ -155,168 +351,192 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1530.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "_includes/header.html",
-					"settings":
-					{
-						"buffer_size": 6248,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								6174,
-								6174
-							]
-						],
-						"settings":
-						{
 							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
+							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 495.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "pages/was_ist_psychotherapie/index.html",
-					"settings":
-					{
-						"buffer_size": 1905,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1672,
-								1672
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
 						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "pages/ueber_uns/index.html",
-					"settings":
-					{
-						"buffer_size": 3202,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								32,
-								32
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 720.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "pages/kontakt/index.html",
-					"settings":
-					{
-						"buffer_size": 530,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								473,
-								473
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "pages/supervision_coaching/index.html",
-					"settings":
-					{
-						"buffer_size": 1666,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1319,
-								1319
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 135.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 6,
-					"file": "index.html",
+					"file": "pages/seminare_gruppen/index.html",
 					"settings":
 					{
-						"buffer_size": 942,
+						"buffer_size": 1419,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								619,
-								619
+								509,
+								509
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "_posts/2016-02-22-gruppentherapie-anfaenger.markdown",
+					"settings":
+					{
+						"buffer_size": 792,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								144,
+								144
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "_posts/2016-03-09-SupervisionBL.markdown",
+					"settings":
+					{
+						"buffer_size": 262,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								136,
+								105
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "pages/interessantes/links.markdown",
+					"settings":
+					{
+						"buffer_size": 1161,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								899,
+								899
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "pages/interessantes/hilfreiches.markdown",
+					"settings":
+					{
+						"buffer_size": 393,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								194,
+								90
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "pages/ueber_uns/index.html",
+					"settings":
+					{
+						"buffer_size": 3162,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3081,
+								3081
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 450.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "pages/was_ist_psychotherapie/index.html",
+					"settings":
+					{
+						"buffer_size": 1928,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								509,
+								509
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -383,6 +603,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 254.0,
+	"side_bar_width": 77.0,
 	"status_bar_visible": true
 }

@@ -4,12 +4,12 @@ layout: default
 <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title"><br>{{ page.title }}</h1>
-    <p class="post-meta intended"></p>
-    <p class="intended">
+    <br><br>
+    <h3 class="post-title"><br>{{ page.title }}</h3>
+    <p class="post-meta intended">
       <strong>Wann:</strong>
       {% assign m = page.date | date: "%-m" %}
-      {{ page.date | date: "%-d" }}.
+      {{ page.date | date: "%d" }}.
       {% case m %}
         {% when '1' %}Januar
         {% when '2' %}Februar
@@ -25,25 +25,25 @@ layout: default
         {% when '12' %}Dezember
       {% endcase %}
       {{ page.date | date: "%Y" }}
-      <br>
-    {% if page.zeit %}<strong>Zeit: </strong>{{ page.zeit }}<br>{% endif %}
-    {% if page.ort %}<strong>Ort:</strong> {{page.ort}}<br>{% endif %}
-    {% if page.beginn %}<strong>Beginn: </strong>{{ page.beginn }}<br>{% endif %}
-    {% if page.ende %}<strong>Ende: </strong>{{ page.ende }}<br>{% endif %}
-    {% if page.leiter %}<strong>Gruppenleiter: </strong>{{ page.leiter }}<br>{% endif %}
-    {% if page.dauer %}<strong>Dauer:</strong> {{page.dauer}}<br>{% endif %}
+      
+    {% if page.zeit %}<br><strong>Zeit: </strong>{{ page.zeit }}{% endif %}
+    {% if page.ort %}<br><strong>Ort:</strong> {{page.ort}}{% endif %}
+    {% if page.beginn %}<br><strong>Beginn: </strong>{{ page.beginn }}{% endif %}
+    {% if page.ende %}<br><strong>Ende: </strong>{{ page.ende }}{% endif %}
+    {% if page.leiter %}<br><strong>Gruppenleitung: </strong>{{ page.leiter }}{% endif %}
+    {% if page.dauer %}<br><strong>Dauer:</strong> {{page.dauer}}{% endif %}
     </p>
   </header>
   <div class="row">
-    <div class="col-xs-12 col-md-6">
-    <article class="post-content"><br>
+    <div class="col-xs-12 col-md-8">
+    <article class="post-content">
     {% if page.anmeldung %}<h4>&nbsp;</h4>{% endif %}
     <hr>
       {{ content }}
     </article>
     </div>
     {% if page.anmeldung %}
-    <div class="col-xs-12 col-md-6">
+    <div class="col-xs-12 col-md-4">
     <h4>Anmeldung</h4>
     <hr>
     {% include contact_form.html %}

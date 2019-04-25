@@ -4,7 +4,7 @@ title: Hilfreiches
 image: /img/head/atacamaboote_wide.jpg
 ---
 
-Kommt bald!
+Gedanken zur Inklusion in der Schule [Auf dem Weg zur Inklusion](/dateien/Auf_dem_Weg_zur_Inklusion.pdf)
 
 <br><br><br><br><br><br>
 <nav>

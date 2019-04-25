@@ -1,9 +1,9 @@
 ---
 layout: post_aktuell
-title:  "Gruppentherapie für Anfänger"
+title:  "Gruppentherapie für Einsteiger"
 date:   2016-02-22 16:00
 ort: Praxis Lebenswerkstatt
-dauer: 2 Stunden
+zeit: "von 18:15 bis 20:00 Uhr"
 leiter: "Eva & Reinhard"
 anmeldung: true
 

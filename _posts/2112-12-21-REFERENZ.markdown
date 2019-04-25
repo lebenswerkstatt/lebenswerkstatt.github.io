@@ -1,0 +1,71 @@
+---
+layout: post_aktuell
+title:  "Referenz und Beispiel"
+date:   2112-12-21
+ort: Cafe Moser Seminarraum
+zeit: "von 14:30 bis 17:30 Uhr"
+leiter: "Eva und Reinhard"
+anmeldung: false
+
+categories: beispiel
+published: false
+---
+Das ist normaler Text der angezeigt wird.
+
+Das ist eine Ueberschrift
+-------------------------
+Das ist ein normaler Text.
+
+Formatierung
+--------------
+
+**Dieser Text wird FETT sein**
+
+*Dieser Text wird KURSIV sein*
+
+Dieser Text sollte einen
+
+Zeilenumbruch haben.
+
+Und noch einen Zeilenumbruch.
+(Man beachte den Doppelzeilenumbruch)
+
+
+Links
+------
+Links werden automatisch erkannt (wie zum Beispiel http://www.google.at) oder
+man kann sie "verstecken" wie [hier]. Oder wenn man [Kosten von Therapie] will oder gleich im [Text selber](http://www.praxis-lebenswerkstatt.at/pages/impressium).
+
+[hier]: http://www.google.at
+[Kosten von Therapie]: http://www.praxis-lebenswerkstatt.at/pages/kosten
+
+Bilder
+------
+Um Bilder einzufuegen muss man nur das bild in den Ordner **img/weitere** kopieren
+und dann im Text folgend verlinken:
+![Ein Hase](/img/weitere/Hase.jpg)
+
+Dateien
+------
+Gedanken zur Inklusion in der Schule [Auf dem Weg zur Inklusion](/dateien/Auf_dem_Weg_zur_Inklusion.pdf)
+
+Listen
+--------
+
+1. das
+2. ist
+3. eine 
+4. nummerliste
+
+* das
+* ist
+* eine
+* punktliste
+
+Tabellen
+-------------
+
+Das ist       | eine Tabelle | weiteres
+------------- | -------------|
+Inhalt 1      | Inhalt 2 | hallo2
+Reihe 2/links | Reihe 2/rechts | asdf

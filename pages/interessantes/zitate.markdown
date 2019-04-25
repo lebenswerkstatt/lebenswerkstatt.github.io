@@ -69,7 +69,7 @@ indem man es erzählt.
 
 Einen Tag lang ungestört in Muße zu verbringen,
 
-heisst, einen Tag lang ein Unsterblicher zu sein.
+heißt, einen Tag lang ein Unsterblicher zu sein.
 
 *Johann Albrecht Bengel*
 
@@ -120,6 +120,60 @@ Wir vergeben,
 solange wir lieben.
 
 *De La Rochefoucauld*
+
+<i class="fa fa-quote-left"></i>
+
+Bemühe dich nicht alles wissen zu wollen,
+
+sonst lernst du gar nichts.
+
+*Demokrit*
+
+<i class="fa fa-quote-left"></i>
+
+Erfahrungen sammeln heißt Fehler begehen.
+
+*Herbert G. Wells*
+
+<i class="fa fa-quote-left"></i>
+
+Der erste Schritt zur Lösung eines Problems ist,
+
+jemandem davon zu erzählen.
+
+*John P. Flynn*
+
+<i class="fa fa-quote-left"></i>
+
+Je mehr du von dir zeigst – desto mehr gibt es an dir zu lieben.
+
+*Findhorn*
+
+<i class="fa fa-quote-left"></i>
+
+Fürchte dich nicht, langsam zu gehen,
+
+fürchte dich nur, stehen zu bleiben.
+
+*Aus China*
+
+<i class="fa fa-quote-left"></i>
+
+Wer die Lebenslaufbahn seiner Kinder zu verpfuschen gedenkt,
+
+der räume ihnen alle Hindernisse weg.
+
+*Emil Oesch*
+
+<i class="fa fa-quote-left"></i>
+
+Die reinste Form des Wahnsinns ist es,
+
+alles beim Alten zu belassen und
+
+gleichzeitig zu hoffen, dass sich etwas ändert!
+
+*Albert Einstein*
 
 <i class="fa fa-quote-left"></i>
 
