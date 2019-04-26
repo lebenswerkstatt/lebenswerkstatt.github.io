@@ -2,9 +2,6 @@
 title: Praxis Lebenswerkstatt
 timezone: UTC
 collections:
-  hauptseiten:
-    title: Hauptseiten
-    output: true
   posts:
     title: Posts
     output: true
