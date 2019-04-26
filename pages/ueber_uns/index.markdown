@@ -1,15 +1,11 @@
 ---
 title: Über uns
-layout: page
 image: "/img/head/water.jpg"
 eva: "/img/eva_einzel.png"
 reinhard: "/img/reinhard_einzel.png"
+layout: page
 ---
 
-<!--<p>
-	Wir sind seit fast einem Jahrzehnt in zweiter Ehe miteinander verheiratet und erlebten gemeinsam viel Schönes und meisterten Schwieriges. Insgesamt zogen wir fünf Kinder auf und sind eine Patchworkfamilie, die diese Lebenssituation überwiegend genießt und bereichernd erlebt. 
-	Beim Wandern, Segeln und in unserem Garten genießen wir die Natur. Gerne treffen wir liebe Menschen und bereisen ferne Länder, um Land und Leute und deren Kultur kennen zu lernen. 
-</p>-->
 <div class="row">
     <div class="col-xs-12 col-md-6">
     	<div class="row outerBox">
