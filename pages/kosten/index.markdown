@@ -1,35 +1,10 @@
 ---
 title: Kosten
-layout: page
 image: "/img/head/flower_orange_cropped.jpg"
+layout: page
 ---
 
 <div class="row">
-<!--
-	<div class="col-sm-12 col-md-3">
-		<div class="card card-block">
-			<h4 class="card-title">Erstgespräch</h4>
-			<p class="card-text">
-				In einem Erstgespräch werden Ihre Anliegen und auch die Rahmenbedingungen für eine vertrauensvolle therapeutische Zusammenarbeit (Häufigkeit der Therapiesitzungen, Zahlungsmodalität und Absageregelungen) geklärt.
-			</p>
-			<div class="row">
-				<div class="col-sm-12">
-					<div class="alert alert-success" role="alert">
-						<strong>Preis: </strong> € 80
-					</div>
-				</div>
-				<div class="col-sm-12">
-					<div class="alert alert-info" role="alert">
-						<strong>Dauer: </strong> 50 min.
-					</div>
-				</div>
-				<div class="col-sm-12">
-					
-				</div>
-			</div>
-		</div>
-	</div>
--->
 	<div class="col-sm-12 col-md-4">
 		<div class="card card-block">
 			<h4 class="card-title">Psychotherapie</h4>
