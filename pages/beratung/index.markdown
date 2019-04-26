@@ -1,0 +1,22 @@
+---
+title: Beratung
+layout: page
+image: "/img/head/tunnel.jpg"
+---
+
+<p>
+Beratung bietet die Möglichkeit, in schwierigen oder belastenden Situationen, in denen Sie sich selbst nicht mehr helfen können, eine fundierte Außensicht zu erhalten, aber auch unterstützt zu werden neue Wege oder Lösungen zu finden bzw. Entscheidungen zu treffen.
+</p>
+<p>
+Beratung kann helfen:
+</p>
+<ul class="content-list">
+	<li>Orientierung und Klarheit zu bekommen</li>
+	<li>In Entscheidungsprozessen</li>
+	<li>Ihre persönlichen Ziele zu reflektieren und zu erreichen</li>
+	<li>Hoffnung und Mut zu entwickeln</li>
+	<li>Verhaltensalternativen zu reflektieren und zu finden</li>
+	<li>Stressquellen zu entdecken und Burnout vorzubeugen</li>
+	<li>In Beziehungskrisen</li>
+	<li>Bei Familien- und Erziehungsproblemen</li>
+</ul>
