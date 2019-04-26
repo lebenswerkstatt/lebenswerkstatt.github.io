@@ -1,0 +1,9 @@
+---
+title: Vielen Dank!
+layout: page
+image: "/img/50px.png"
+---
+
+<p class="lead">
+Vielen Dank für Ihr Interesse. Wir melden uns möglichst bald bei Ihnen.<br><br><br><br>
+</p>
